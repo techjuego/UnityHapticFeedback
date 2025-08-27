@@ -6,10 +6,10 @@ namespace TechJuego.HapticFeedback
         [RuntimeInitializeOnLoadMethod]
         static void OnRuntimeMethodLoad()
         {
-            AndroidPlugins.LoadPluing();
+            AndroidHaptic.LoadPluing();
         }
     }
-    public class AndroidPlugins
+    public class AndroidHaptic
     {
         static AndroidJavaClass unityclass;
         static AndroidJavaObject unityActivity;

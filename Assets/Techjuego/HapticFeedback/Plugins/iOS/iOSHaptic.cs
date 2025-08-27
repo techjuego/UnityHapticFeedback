@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 
 namespace TechJuego.HapticFeedback
 {
-    public class iOSPlugins
+    public class iOSHaptic
     {
 #if UNITY_IOS
         [DllImport("__Internal")]

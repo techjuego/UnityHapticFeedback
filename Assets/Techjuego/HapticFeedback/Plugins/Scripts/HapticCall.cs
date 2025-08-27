@@ -5,75 +5,73 @@ namespace TechJuego.HapticFeedback
         public static void HeavyHaptic()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUIImpactFeedbackStyleHeavy();
+        iOSHaptic.PerformUIImpactFeedbackStyleHeavy();
 #endif
-
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUIImpactFeedbackStyleHeavy();
+        AndroidHaptic.PerformUIImpactFeedbackStyleHeavy();
 #endif
         }
         public static void MediumHaptic()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUIImpactFeedbackStyleMedium();
+            iOSHaptic.PerformUIImpactFeedbackStyleMedium();
 #endif
-
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUIImpactFeedbackStyleMedium();
+            AndroidHaptic.PerformUIImpactFeedbackStyleMedium();
 #endif
         }
         public static void LightHaptic()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUIImpactFeedbackStyleLight();
+            iOSHaptic.PerformUIImpactFeedbackStyleLight();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUIImpactFeedbackStyleLight();
+            AndroidHaptic.PerformUIImpactFeedbackStyleLight();
 #endif
         }
         public static void RigidHaptic()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUIImpactFeedbackStyleRigid();
+            iOSHaptic.PerformUIImpactFeedbackStyleRigid();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUIImpactFeedbackStyleRigid();
+            AndroidHaptic.PerformUIImpactFeedbackStyleRigid();
 #endif
         }
         public static void SoftHaptic()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUIImpactFeedbackStyleSoft();
+            iOSHaptic.PerformUIImpactFeedbackStyleSoft();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUIImpactFeedbackStyleSoft();
+            AndroidHaptic.PerformUIImpactFeedbackStyleSoft();
 #endif
         }
         public static void PerformSuccessFeedback()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUINotificationFeedbackTypeSuccess();
+            iOSHaptic.PerformUINotificationFeedbackTypeSuccess();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUINotificationFeedbackTypeSuccess();
+            AndroidHaptic.PerformUINotificationFeedbackTypeSuccess();
 #endif
         }
         public static void PerformErrorFeedback()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUINotificationFeedbackTypeError();
+            iOSHaptic.PerformUINotificationFeedbackTypeError();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUINotificationFeedbackTypeError();
+            AndroidHaptic.PerformUINotificationFeedbackTypeError();
 #endif
         }
         public static void PerformWarningFeedback()
         {
 #if UNITY_IOS
-        iOSPlugins.PerformUINotificationFeedbackTypeWarning();
+            iOSHaptic.PerformUINotificationFeedbackTypeWarning();
 #endif
 #if UNITY_ANDROID
-        AndroidPlugins.PerformUINotificationFeedbackTypeWarning();
+            AndroidHaptic.PerformUINotificationFeedbackTypeWarning();
 #endif
         }
     }
