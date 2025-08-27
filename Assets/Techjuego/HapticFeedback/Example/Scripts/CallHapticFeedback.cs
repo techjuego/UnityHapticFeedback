@@ -5,36 +5,36 @@ namespace TechJuego.HapticFeedback
     {
         public void HeavyHaptic()
         {
-            iOSHapticCall.HeavyHaptic();
+            HapticCall.HeavyHaptic();
         }
         public void MediumHaptic()
         {
-            iOSHapticCall.MediumHaptic();
+            HapticCall.MediumHaptic();
         }
         public void LightHaptic()
         {
-            iOSHapticCall.LightHaptic();
+            HapticCall.LightHaptic();
         }
         public void RigidHaptic()
         {
-            iOSHapticCall.RigidHaptic();
+            HapticCall.RigidHaptic();
 
         }
         public void SoftHaptic()
         {
-            iOSHapticCall.SoftHaptic();
+            HapticCall.SoftHaptic();
         }
         public void PerformSuccessFeedback()
         {
-            iOSHapticCall.PerformSuccessFeedback();
+            HapticCall.PerformSuccessFeedback();
         }
         public void PerformErrorFeedback()
         {
-            iOSHapticCall.PerformErrorFeedback();
+            HapticCall.PerformErrorFeedback();
         }
         public void PerformWarningFeedback()
         {
-            iOSHapticCall.PerformWarningFeedback();
+            HapticCall.PerformWarningFeedback();
         }
     }
 

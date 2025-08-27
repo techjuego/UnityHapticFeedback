@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Tech
+namespace TechJuego.HapticFeedback
 {
     public class iOSPlugins
     {
